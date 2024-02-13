@@ -88,12 +88,12 @@ const questions = [
     ]
   },
   {
-    question: 'Which of the following is not known as a green house gas?',
+    question: 'What is the name of the phenomenon that occurs when a star collapses under its own gravity, becoming extremely dense?',
     answers: [
-      { text: 'Hydrogen', correct: true },
-      { text: 'Carbon Dioxide', correct: false },
-      { text: 'Methane', correct: false },
-      { text: 'Nitrous oxide', correct: false }
+      { text: 'Black Hole', correct: true },
+      { text: 'Pulsar', correct: false },
+      { text: 'Nebula', correct: false },
+      { text: 'Supernova', correct: false }
     ]
   },
   {
@@ -115,12 +115,21 @@ const questions = [
     ]
   },
   {
-    question: "What does soda water contain?",
+    question: "What is laughing gas?",
     answers: [
       { text: "Sulphuric acid", correct: false },
-      { text: "Carbonic acid", correct: false },
-      { text: "Nitrous acid", correct: false },
-      { text: "Carbon dioxide", correct: true }
+      { text: "Nitrous dioxide", correct: false },
+      { text: "Nitrous oxide", correct: true },
+      { text: "Hydrogen peroxide", correct: false }
+    ]
+  }, 
+  {
+    question: "What is the largest moon in our solar system?",
+    answers: [
+      { text: "Titan", correct: false },
+      { text: "Phobos", correct: false },
+      { text: "Europa", correct: false },
+      { text: "Ganymede", correct: true },
     ]
   }
 ]
